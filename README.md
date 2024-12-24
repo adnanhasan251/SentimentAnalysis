@@ -1,6 +1,5 @@
 ### README.md
 
-```markdown
 # Stock News Sentiment Analysis
 
 This repository contains a Python script (`scrap.py`) that collects news articles related to business from the [Saurav NewsAPI](https://saurav.tech/NewsAPI/), performs sentiment analysis on the headlines and descriptions, and maps the articles to stock tickers based on a provided list. The results are saved in a CSV file for further use, such as in machine learning models like RTGCN for stock prediction.
@@ -21,7 +20,7 @@ Install the required libraries using `requirements.txt`:
 
 ```bash
 pip install -r requirements.txt
-```
+
 
 ## File Descriptions
 - **`scrap.py`**: Main script to scrape news, perform sentiment analysis, and save data.
